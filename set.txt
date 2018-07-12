@@ -6,9 +6,9 @@ public static void main(String[] args) {
 	Scanner in=new Scanner(System.in);
 	N=in.nextInt();
 	if(N==0){
-		System.out.println(N+":"+"Zero");
+		System.out.println("Zero");
 	}
 	else if(N<0){
-		System.out.println(N+":"+"Negative");}
+		System.out.println("Negative");}
 	else if(N>0){
-		System.out.println(N+":"+"Positve");}}}
+		System.out.println("Positve");}}}
