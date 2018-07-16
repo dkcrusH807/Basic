@@ -1,18 +1,12 @@
-package set1;
+package sql;
 import java.util.*;
-public class Set1 {
+public class Guvi {
 public static void main(String[] args) {
 Scanner in=new Scanner(System.in);
-int N,K,sum=0;
-N=in.nextInt();
-K=in.nextInt();
-int[] arr=new int[N];
-for(int i=0;i<N;i++){
-	arr[i]=in.nextInt();
-}
-for(int i=0;i<K;i++){
-	sum=sum+arr[i];
-}
-System.out.println(sum);
+int a,b;
+a=in.nextInt();
+b=in.nextInt();
+System.out.println(a+b);
 }
 }
+
