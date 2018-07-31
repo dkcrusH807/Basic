@@ -9,7 +9,7 @@ s=in.nextLine();
 s1=in.nextLine();
 if(s.length()==s1.length()){
 for(int i=0;i<s.length();i++){
-if(s.charAt(i)==s1.charAt(i)){
+if(s.substring(i,i+1).equalsIgnoreCase(s1.substring(i,i+1))){
 	count++;
 }
 }
