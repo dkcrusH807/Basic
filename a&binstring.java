@@ -18,4 +18,3 @@ if(count==s.length()){
 }
 }
 }
-s
